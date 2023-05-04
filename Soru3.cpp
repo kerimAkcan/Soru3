@@ -5,9 +5,9 @@ main(){
 	int sayilar[MAX_SIZE], y[MAX_SIZE], x[MAX_SIZE];
 	int swap,size1, size2;
 	
-	printf("Dizi Boyutu Girin");
+    printf("Dizi Boyutu Girin");
     scanf("%d", &size1);
-    printf("Dizi Elemanlarý Giriniz\n");
+    printf("Dizi ElemanlarÃ½ Giriniz\n");
     for(int i =0; i < size1; i++){
     	scanf("%d", &x[i]);
 	}
@@ -21,14 +21,14 @@ main(){
 		}
 	  }
 	}
-	printf("Býrýncý Dýzý Sýralama:\n");
+	printf("BÃ½rÃ½ncÃ½ DÃ½zÃ½ SÃ½ralama:\n");
 	for(int i = 0; i <size1; i++){
 		printf("%d\n",  x[i]);
 	}
 	
-	printf("Dizi Boyutu Girin");
+    printf("Dizi Boyutu Girin");
     scanf("%d", &size2);
-    printf("Dizi Elemanlarý Giriniz\n");
+    printf("Dizi ElemanlarÃ½ Giriniz\n");
     for(int i =0; i < size2; i++){
     	scanf("%d", &y[i]);
 	}
@@ -42,7 +42,7 @@ main(){
 	  }
 	}
 
-	printf("Ikýncý Dýzý Sýralama:\n");
+	printf("IkÃ½ncÃ½ DÃ½zÃ½ SÃ½ralama:\n");
 	for(int i = 0; i <size2; i++){
 		printf("%d\n",  y[i]);
 	}
@@ -64,7 +64,7 @@ main(){
 		}
 	  }
 	}
-	printf(" iki Dizinin Birleþimi Sýralama:\n");
+	printf(" iki Dizinin BirleÃ¾imi SÃ½ralama:\n");
 	for(int i = 1; i < yeniSize; i++){
 		printf("%d\n",  sayilar[i]);
 	}
